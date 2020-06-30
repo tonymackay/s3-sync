@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source ~/.secrets/s3-sync
+
+go run main.go -dryrun -local-dir www -bucket s3://testbucketforgo
+go run main.go -dryrun -local-dir www -bucket s3://testbucketforgo -base-url https://example.com
+go run main.go -dryrun -local-dir www -bucket s3://testbucketforgo -base-url https://example.com -output-path modified.txt
