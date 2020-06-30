@@ -50,7 +50,7 @@ upload: www/sitemap.xml to s3://testbucketforgo/sitemap.xml
 ```
 https://example.com/hello-world/
 https://example.com/hello-world/test-image.jpg
-https://example.com/index.html
+https://example.com/
 https://example.com/sitemap.xml
 ```
 
